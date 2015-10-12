@@ -1,0 +1,11 @@
+Source: apache-cm
+Section: admin
+Priority: optional
+Maintainer: Damian Lukowski <damian.lukowski@credativ.de>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.5
+
+Package: apache-cm
+Architecture: all
+Depends: ${misc:Depends}, python-configobj, python-termcolor
+Description: apache2 cluster manager
